@@ -11,6 +11,7 @@
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+	max-width: 1256px;
 	width: 93.3%;
 }
 
@@ -24,6 +25,7 @@
 	background-color: #fff;
 	border-right: 1px solid #bbb;
 	height: 100vh;
+	min-width: 54px;
 	padding-right: 15px;
 	position: -webkit-sticky;
 	position: sticky;
@@ -220,6 +222,7 @@
 	background-color: #fff;
 	height: 1400px;
 	height: 10000px;
+	margin-right: 30px;
 	min-width: 598px;
 	width: 598px;
 }
