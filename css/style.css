@@ -21,6 +21,8 @@
 	width: 990px;
 }
 
+/* 左カラム */
+
 .left-column {
 	background-color: #fff;
 	border-right: 1px solid #bbb;
@@ -38,7 +40,7 @@
 	height: 100vh;
 	position: absolute;
 	right: 12px;
-	width: 255px;
+	width: 100%;
 }
 
 .lc-icobtn {
@@ -69,6 +71,8 @@
 	line-height: 1.7;
 	padding-left: 24px;
 }
+
+/* 左カラムアイコン */
 
 .lc-icobtn-window {
 	align-items: center;
@@ -144,6 +148,8 @@
 	margin-top: 4px;
 }
 
+/* 左カラムツイートボタン */
+
 .lc-tweet-btn {
 	background-color: #1da1f2;
 	border-radius: 24px;
@@ -166,6 +172,8 @@
 .lc-tweet-btn:hover {
 	background-color: #bbb;
 }
+
+/* 左カラムアカウントボタン */
 
 .lc-account-btn {
 	align-items: center;
@@ -218,6 +226,8 @@
 	line-height: 1.4;
 }
 
+/* タイムライン */
+
 .timeline {
 	background-color: #fff;
 	height: 1400px;
@@ -226,6 +236,8 @@
 	min-width: 598px;
 	width: 598px;
 }
+
+/* タイムライン・ヘッダー */
 
 .tl-header {
 	background-color: #fff;
@@ -294,6 +306,8 @@
 	line-height: 1.65;
 }
 
+/* タイムライン・ヒーロートップ */
+
 .herotop {
 	height: 200px;
 	margin-top: 54px;
@@ -312,6 +326,8 @@
 .tl-account-name-container {
 	padding: 8px 16px 0;
 }
+
+/* 左カラム・トップボタン */
 
 .tl-topbtns {
 	display: -ms-flex;
@@ -392,12 +408,16 @@
 	color: #fff;
 }
 
+/* 左カラム・アカウント情報 */
+
 .tl-account-name {
 	color: #14171a;
 	font-size: 19px;
 	letter-spacing: -.2px;
 	line-height: 1.76;
 }
+
+/* タイムライン・id・フォローornot */
 
 .tl-account-info {
 	align-items: flex-start;
@@ -424,6 +444,8 @@
 	padding: 0 3px;
 }
 
+/* プロフィール */
+
 .tl-account-discr {
 	padding-top: 11px;
 }
@@ -434,6 +456,8 @@
 	letter-spacing: -.1px;
 	line-height: 1.2;
 }
+
+/* タイムライン・個人情報(?) */
 
 .tl-account-personal-info {
 	display: flex;
@@ -499,6 +523,8 @@
 	padding-right: 8px;
 }
 
+/* タイムライン・フォロワー分布 */
+
 .tl-account-follow {
 	padding-top: 15px;
 }
@@ -514,6 +540,13 @@
 	padding-right: 14px;
 }
 
+.follow span {
+	color: #14171a;
+	font-size: 15px;
+}
+
+/* タイムライン・フォローされています */
+
 .tl-followed-by {
 	color: #657786;
 	display: inline-block;
@@ -525,6 +558,8 @@
 .tl-followed-by:hover {
 	text-decoration: underline;
 }
+
+/* タイムライン・ドロワーボタン */
 
 .tl-tweet-drower {
 	border-bottom: 1px solid #ddd;
@@ -562,6 +597,8 @@
 	font-size: 15px;
 	font-weight: bold;
 }
+
+/* タイムライン・ツイート仮 */
 
 .tweet {
 	display: flex;
@@ -715,6 +752,8 @@
 	background-color: #ddd;
 }
 
+/* タイムライン・ツイート・リンクカード */
+
 .tweet-linkcard {
 	border: 1px solid #ddd;
 	border-radius: 12px;
@@ -766,6 +805,8 @@
 	margin-right: 5px;
 }
 
+/* 右カラム */
+
 .right-column {
 	background-color: #fff;
 	height: 10000px;
@@ -773,6 +814,8 @@
 	margin-right: 11px;
 	width: 350px;
 }
+
+/* 右カラム・検索ウィンドウ */
 
 .rc-search-wrap {
 	align-items: center;
@@ -833,6 +876,8 @@
 	word-spacing: normal;
 }
 
+/* 右カラム・要素置き場 */
+
 .rc-wrap {
 	padding-bottom: 75px;
 }
@@ -842,6 +887,8 @@
 	position: fixed;
 	width: 350px;
 }
+
+/* 右カラム・画像置き場 */
 
 .rc-img-container {
 	border-radius: 15px;
@@ -868,6 +915,8 @@
 	height: 100%;
 	width: auto;
 }
+
+/* 右カラム・おすすめツイート */
 
 .rc-ossm {
 	background-color: #eee;
@@ -992,6 +1041,8 @@
 	background-color: #bbb;
 }
 
+/* 右カラム・今どうしてる? */
+
 .rc-whatdonow {
 	background-color: #eee;
 	border-radius: 15px;
@@ -1020,6 +1071,11 @@
 	display: flex;
 	flex-direction: column;
 	padding: 17px 10px;
+	transition: .2s;
+}
+
+.rc-wdn-news:hover {
+	background-color: #ccc;
 }
 
 .rc-wdn-news-inner {
@@ -1108,6 +1164,8 @@
 .rc-wdn-lookmore:hover {
 	background-color: #bbb;
 }
+
+/* 右カラム・フッター */
 
 .rc-footer {
 	margin-top: 20px;
